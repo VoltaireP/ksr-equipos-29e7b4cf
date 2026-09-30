@@ -1,0 +1,218 @@
+{
+  "alarms": [],
+  "client": "equipos",
+  "currency": "MXN",
+  "daily": [],
+  "display_name": "Equipos de Elevacion",
+  "generated_at": "2026-09-30T02:47:47.364132-07:00",
+  "headline": [
+    {
+      "format": "money",
+      "key": "spend",
+      "label": "Ad spend",
+      "prior": 113593.62,
+      "trend": [
+        54428.28,
+        39082.8,
+        137290.48,
+        120319.07,
+        102412.37,
+        144980.38,
+        113593.62,
+        149585.53
+      ],
+      "value": 149585.53
+    },
+    {
+      "format": "int",
+      "key": "messages",
+      "label": "Messages",
+      "prior": 1135,
+      "trend": [
+        423,
+        221,
+        1350,
+        1153,
+        1240,
+        1476,
+        1135,
+        1348
+      ],
+      "value": 1348
+    },
+    {
+      "format": "int",
+      "key": "google_conversions",
+      "label": "Google conversions",
+      "prior": 14,
+      "trend": [
+        5.999917,
+        5.998879,
+        10.000913,
+        4.999087,
+        6,
+        31,
+        14,
+        36
+      ],
+      "value": 36
+    },
+    {
+      "format": "int",
+      "key": "pixel_leads",
+      "label": "Pixel leads",
+      "prior": 43,
+      "trend": [
+        4,
+        6,
+        41,
+        41,
+        50,
+        39,
+        43,
+        38
+      ],
+      "value": 38
+    }
+  ],
+  "insight": null,
+  "labels": {},
+  "metrics": {
+    "appointments_booked": 0,
+    "appointments_showed": 0,
+    "cost_per_message": 83.59,
+    "cpl": 2965.29,
+    "crm_leads": 0,
+    "crm_leads_raw": 0,
+    "ctr": 0.008747,
+    "google_conversions": 36,
+    "google_spend": 36904.56,
+    "impressions": 2326310,
+    "landing_page_views": 0,
+    "link_clicks": 20349,
+    "messages": 1348,
+    "meta_spend": 112680.97,
+    "pixel_leads": 38,
+    "reach": 1187494,
+    "spend": 149585.53,
+    "tiktok_leads": 0,
+    "tiktok_spend": 0
+  },
+  "segment_label": "segment",
+  "segments": [],
+  "top_ads": [
+    {
+      "ad_name": "Winner Ad- Semi Gantry- EP 122206402442535794-WA",
+      "campaign_name": "KS- Cold- Messages- OVERHEAD CRANES- CBO- Scaled 7.14",
+      "crm_leads": null,
+      "messages": 190,
+      "pixel_leads": 3,
+      "spend": 9784.9
+    },
+    {
+      "ad_name": "8.19.26-Control- Grua Portico Adj- EP 122207612426535794- Send Message",
+      "campaign_name": "Rebuilt 6.6-KS-COLD- Messages -Monterrey Only (814-057-3306)- Top Product-CBO-  Scaled 7.7.2026",
+      "crm_leads": null,
+      "messages": 132,
+      "pixel_leads": 2,
+      "spend": 6731.63
+    },
+    {
+      "ad_name": "3.23.26-Carousel Ads- Malacates Electricos- Send Message",
+      "campaign_name": "REL 6.24 [REBUILT 6.6] KS-COLD- OG PAGE-Messages-All LOC (EXC. MONTERREY) - Top Products- CBO- Scaled 7.14.26",
+      "crm_leads": null,
+      "messages": 102,
+      "pixel_leads": 0,
+      "spend": 4034.4
+    },
+    {
+      "ad_name": "3.31.26 -Winner Copy+ HOIST VID- Send Message - Copy",
+      "campaign_name": "KS- Cold- Messages- Polipastos Electricos/Manuales- CBO-   Scaled 7.14.26",
+      "crm_leads": null,
+      "messages": 101,
+      "pixel_leads": 0,
+      "spend": 5960.85
+    },
+    {
+      "ad_name": "CAROUSEL- SEMI GANTRY- SEND MESSAGE",
+      "campaign_name": "KS- Cold- Messages- OVERHEAD CRANES- CBO- Scaled 7.14",
+      "crm_leads": null,
+      "messages": 84,
+      "pixel_leads": 1,
+      "spend": 5476.36
+    }
+  ],
+  "unavailable": [
+    "crm_leads",
+    "crm_leads_raw",
+    "appointments_booked",
+    "appointments_showed",
+    "tiktok_spend",
+    "tiktok_leads"
+  ],
+  "verification": {
+    "checks": [
+      {
+        "detail": "weekly window has 7 day(s)",
+        "name": "window_span",
+        "ok": true
+      },
+      {
+        "detail": "meta 112680.97, google 36904.56, tiktok 0.00, total 149585.53",
+        "name": "spend",
+        "ok": true
+      },
+      {
+        "detail": "non-spend aggregate metrics match raw rows",
+        "name": "raw_metrics",
+        "ok": true
+      },
+      {
+        "detail": "raw 0, counted 0",
+        "name": "crm_leads",
+        "ok": true
+      },
+      {
+        "detail": "expected 2965.29, got 2965.29",
+        "name": "cpl",
+        "ok": true
+      },
+      {
+        "detail": "segment totals do not exceed report totals",
+        "name": "segments_additive",
+        "ok": true
+      },
+      {
+        "detail": "segments cover report totals",
+        "name": "segments_coverage",
+        "ok": true
+      },
+      {
+        "detail": "all headline trends have eight matching points",
+        "name": "headline_trends",
+        "ok": true
+      },
+      {
+        "detail": "raw rows by date: 2026-09-18=15, 2026-09-19=4, 2026-09-20=4, 2026-09-21=4, 2026-09-22=5, 2026-09-23=5, 2026-09-24=5; report has no daily audit rows",
+        "name": "raw_rows_covered",
+        "ok": true
+      },
+      {
+        "detail": "report keys and values match the allowlist",
+        "name": "schema_allowlist",
+        "ok": true
+      },
+      {
+        "detail": "meta pixel leads 38.00, CRM leads 0",
+        "name": "tracking_drift",
+        "ok": true
+      }
+    ],
+    "status": "pass"
+  },
+  "window": {
+    "end": "2026-09-24",
+    "label": "Sep 18 to Sep 24",
+    "start": "2026-09-18"
+  }
+}
