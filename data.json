@@ -76,6 +76,12 @@
     }
   ],
   "insight": null,
+  "insights": {
+    "creative": "The semi-gantry crane ad that opens with a plant problem (one side has structure, the other does not) leads with 190 conversations; the adjustable gantry ad is second with 132. Next we will test that problem-first opening on the hoist ads, which still read as a feature list.",
+    "doing": "1,348 new message conversations started this week, up from 1,135 the week before, and Google conversions rose to 36 from 14. Spend rose to 149,585.53 pesos from 113,593.62, and the cost per conversation of 83.59 still came down. Lead form sign-ups slipped to 38 from 43.",
+    "look_into": "The Meta ad account moved into a grace period on Sep 23, likely a payment problem with the card or bank account behind it. If it is not cleared the ads stop, so we recommend checking the payment method first. The new Monterrey Google campaign also spent with no conversions yet.",
+    "next": "Next we will review the INDEVA campaign, which takes a large share of the Meta budget for very few conversations, and recommend moving that budget to the overhead crane and Monterrey campaigns, which start conversations at a lower cost."
+  },
   "labels": {},
   "metrics": {
     "appointments_booked": 0,
