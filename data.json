@@ -316,7 +316,7 @@
   "currency": "MXN",
   "daily": [],
   "display_name": "Equipos de Elevacion",
-  "generated_at": "2026-10-01T22:48:06.952300-07:00",
+  "generated_at": "2026-10-02T02:09:51.299723-07:00",
   "headline": [
     {
       "format": "money",
@@ -410,6 +410,10 @@
     "link_clicks": 20349,
     "messages": 1348,
     "meta_spend": 112680.97,
+    "odoo_leads": 40,
+    "odoo_order_value": 271662.0,
+    "odoo_orders": 11,
+    "odoo_won": 0,
     "pixel_leads": 38,
     "reach": 1187494,
     "spend": 149585.53,
@@ -431,6 +435,10 @@
     "link_clicks": 11313,
     "messages": 1135,
     "meta_spend": 94967.17,
+    "odoo_leads": 16,
+    "odoo_order_value": 154946.97,
+    "odoo_orders": 8,
+    "odoo_won": 0,
     "pixel_leads": 43,
     "reach": 1042923,
     "spend": 113593.62,
@@ -449,7 +457,7 @@
       "link_clicks": 2627,
       "messages": 190,
       "pixel_leads": 3,
-      "preview_url": "https://fb.me/yTWEU8l9ka2OkpI",
+      "preview_url": "https://fb.me/23hCEREb2cIry1v",
       "spend": 9784.9
     },
     {
@@ -461,7 +469,7 @@
       "link_clicks": 1472,
       "messages": 132,
       "pixel_leads": 2,
-      "preview_url": "https://fb.me/2eM1EHcAMpgqThm",
+      "preview_url": "https://fb.me/27gbsYTGdTpiNVr",
       "spend": 6731.63
     },
     {
@@ -473,7 +481,7 @@
       "link_clicks": 1201,
       "messages": 102,
       "pixel_leads": 0,
-      "preview_url": "https://fb.me/yIFPnmAesFPWRoT",
+      "preview_url": "https://fb.me/2lVNUtE8HMoqR5l",
       "spend": 4034.4
     },
     {
@@ -485,7 +493,7 @@
       "link_clicks": 734,
       "messages": 101,
       "pixel_leads": 0,
-      "preview_url": "https://fb.me/27CgAiLmvxjVpmA",
+      "preview_url": "https://fb.me/2sAa6Kvnqcb37Xq",
       "spend": 5960.85
     },
     {
@@ -497,7 +505,7 @@
       "link_clicks": 932,
       "messages": 84,
       "pixel_leads": 1,
-      "preview_url": "https://fb.me/29K7MltDzdJzADv",
+      "preview_url": "https://fb.me/22NGritWIbAR9wl",
       "spend": 5476.36
     }
   ],
@@ -547,12 +555,22 @@
         "ok": true
       },
       {
+        "detail": "odoo counts match raw rows",
+        "name": "odoo_rows",
+        "ok": true
+      },
+      {
+        "detail": "campaign rows add up to the platform spend",
+        "name": "campaigns_additive",
+        "ok": true
+      },
+      {
         "detail": "all headline trends have eight matching points",
         "name": "headline_trends",
         "ok": true
       },
       {
-        "detail": "raw rows by date: 2026-09-18=15, 2026-09-19=4, 2026-09-20=4, 2026-09-21=4, 2026-09-22=5, 2026-09-23=5, 2026-09-24=5; report has no daily audit rows",
+        "detail": "raw rows by date: 2026-09-18=31, 2026-09-19=4, 2026-09-20=4, 2026-09-21=12, 2026-09-22=16, 2026-09-23=15, 2026-09-24=11; report has no daily audit rows",
         "name": "raw_rows_covered",
         "ok": true
       },
